@@ -1,5 +1,6 @@
+
 import java.util.Random;
-public class SortingAlgorithm {
+public class Sorting {
     static int timeBubble = 0;
     static int timeSelection = 0;
     static int timeInsertion = 0;
@@ -10,10 +11,16 @@ public class SortingAlgorithm {
     static int spaceInsertion = 0;
     
     public static void main(String[] args) {
+        System.out.println("WELCOME TO SORTING ALGORITHM PROGRAM!");
+        System.out.println("------------------------------------------------------------");
+        System.out.println("  ");
+
         int[] ar2 = new int[5]; //fixed size 5 elements 
         System.out.print("List Befor Sorting [ ");
         random(ar2);
         System.out.println("] ");
+        System.out.println("  ");
+
         
         System.out.print("In Bubble sort: ");
         bubble(ar2);
@@ -22,12 +29,16 @@ public class SortingAlgorithm {
         System.out.println("Space Complixty: " + spaceBubble);
         System.out.println("  ");
 
+        System.out.println("------------------------------------------------------------");
+
         System.out.print("In selection sort: ");
         selection(ar2);
         System.out.println("  ");
         System.out.println("Time Complixty: " + timeSelection);
         System.out.println("Space Complixty: " + spaceSelection);
         System.out.println("  ");
+
+        System.out.println("------------------------------------------------------------");
 
         System.out.print("In insertion sort: ");
         insertion(ar2);
@@ -36,9 +47,11 @@ public class SortingAlgorithm {
         System.out.println("Space Complixty: " + spaceInsertion);
         System.out.println("  ");
         
+        System.out.println("------------------------------------------------------------");
 
         int[] ar = {100,90,80,70,60,50,40,30,20,10};
         System.out.println("List Befor Sorting [100 90 80 70 60 50 40 30 20 10]");
+        System.out.println("  ");
 
         System.out.print("In Bubble sort: ");
         bubble(ar);
@@ -47,12 +60,16 @@ public class SortingAlgorithm {
         System.out.println("Space Complixty: " + spaceBubble);
         System.out.println("  ");
 
+        System.out.println("------------------------------------------------------------");
+
         System.out.print("In selection sort: ");
         selection(ar);
         System.out.println("  ");
         System.out.println("Time Complixty: " + timeSelection);
         System.out.println("Space Complixty: " + spaceSelection);
         System.out.println("  ");
+
+        System.out.println("------------------------------------------------------------");
 
         System.out.print("In insertion sort: ");
         insertion(ar);
@@ -61,12 +78,14 @@ public class SortingAlgorithm {
         System.out.println("Space Complixty: " + spaceInsertion);
         System.out.println("  ");
            
-        
+        System.out.println("------------------------------------------------------------");
+
         int[] ar3 = new int[50]; //fixed size 50 elements 
         System.out.print("List Befor Sorting [ ");
         random(ar3);
         System.out.println("] ");
-        
+        System.out.println("  ");
+       
         System.out.print("In Bubble sort: ");
         bubble(ar3);
         System.out.println("  ");
@@ -74,12 +93,16 @@ public class SortingAlgorithm {
         System.out.println("Space Complixty: " + spaceBubble);
         System.out.println("  ");
 
+        System.out.println("------------------------------------------------------------");
+
         System.out.print("In selection sort: ");
         selection(ar3);
         System.out.println("  ");
         System.out.println("Time Complixty: " + timeSelection);
         System.out.println("Space Complixty: " + spaceSelection);
         System.out.println("  ");
+
+        System.out.println("------------------------------------------------------------");
 
         System.out.print("In insertion sort: ");
         insertion(ar3);
