@@ -174,7 +174,7 @@ public class Sorting {
         spaceSelection = spaceSelection+4; //i
         spaceSelection = spaceSelection+4; //smallestIndex
         spaceSelection = spaceSelection+4; // K
-        spaceSelection = spaceSelection+4; // xx
+        spaceSelection = spaceSelection+4; // tem
         
         timeSelection++;
         for (i = 0; i < x.length - 1; i++) {
